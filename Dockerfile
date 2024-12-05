@@ -4,7 +4,7 @@ EXPOSE 8081
 COPY  target/student-profile-backend.jar /opt/student-profile-backend.jar
 #ENTRYPOINT exec java $JAVA_OPTS -jar student-profile.jar
 #ENTRYPOINT ["java","-jar","/student-profile.jar"]
-CMD ["java","-jar","/student-profile.jar"]
+CMD ["java","-jar","/student-profile-backend.jar"]
 
 
 #FROM openjdk-17-jre
